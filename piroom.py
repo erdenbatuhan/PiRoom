@@ -11,9 +11,6 @@ firebase = firebase.FirebaseApplication("https://piroom-f14c0.firebaseio.com/roo
 room_status = 0
 empty_count = 0
 
-
-
-
 def check_movement(empty_count):
     temp_count = empty_count + 1
     print("Checking movement")
@@ -39,7 +36,7 @@ def update_database(empty_count):
     firebase.put("/rooms/509A","/status",room_status)
         
 pir = MotionSensor(4) # Place of motion sensor OUT cable
-control_frequency = 1 # Check movement at every 5 seconds
+control_frequency = 5 # Check movement at every 5 seconds
 
 print ("Getting Ready..")
 sleep(2)
