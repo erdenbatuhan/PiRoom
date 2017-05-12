@@ -9,6 +9,6 @@
 
 --------------
 **Members**:
-   * Ekrem Çetinkaya
-   * Batuhan Erden
-   * Ömer Said Bükte
+   * Ekrem Çetinkaya - Pi Developer  :pager:
+   * Batuhan Erden - Web Developer :computer:
+   * Ömer Said Bükte - iOS Developer :iphone:
