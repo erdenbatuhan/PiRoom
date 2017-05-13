@@ -1,7 +1,7 @@
 # PiRoom :copyright:
 #### :small_blue_diamond: PiRoom is a project that is aimed to track rooms occupancy information
 
-#### :small_blue_diamond: Users can see status of the rooms in the building :office: via iOS :iphone: application or website :computer:
+#### :small_blue_diamond: Users can see status of the rooms in the building :office: via iOS application :iphone: or website :computer:
 
 
 :information_source: Raspberry Pi is used in piroom project
