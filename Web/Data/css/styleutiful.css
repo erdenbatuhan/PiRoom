@@ -6,9 +6,17 @@ body {
     background-color: whitesmoke;
 }
 
+button {
+    width: 350px;
+}
+
 .navbar .navbar-brand {
 	margin-left: 0px !important;
 	padding-top: 7.5px !important;
+}
+
+.navbar-right {
+	padding-right: 50px;
 }
 
 .navbar .nav.navbar-nav.navbar-right {
