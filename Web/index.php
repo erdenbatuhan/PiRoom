@@ -21,7 +21,7 @@
     <!-- ========== JavaScript Part ========== !-->
     <script src="inc/js/bootstrap.js"></script>
 </head>
-<body class="back">
+<body>
     <?php include "navbar.php" ?>
 
     <div class="container text-center">
