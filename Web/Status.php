@@ -74,7 +74,6 @@
             });
         });
 
-
         ref2.on('value', function(snapshot) {
             for (var i = 0; i < count; i++)
                 document.getElementById("room" + i).remove();
