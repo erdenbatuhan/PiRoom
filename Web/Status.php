@@ -24,11 +24,10 @@
 </head>
 <body>
     <?php
-    include "./navbar.php";
     $buildingId = $_GET['buildingId'];
+    include "./navbar.php";
     ?>
 
-    <br><br><br><br>
     <div class="container">
         <div class="media">
             <div class="media-left">

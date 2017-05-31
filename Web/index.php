@@ -26,7 +26,7 @@
     <?php include "./navbar.php"; ?>
 
     <div id="main" class="container text-center">
-        <br><br><br><br><br>
+        <br>
         <a href="./Status.php?buildingId=1" type="button" class="btn btn-primary"><span id="b1">... / ...</span><br> EF <br><i> Engineering Faculty </i></a>
         <br><br>
         <a href="./Status.php?buildingId=2" type="button" class="btn btn-success"><span id="b2">... / ...</span><br> FEAS <br><i> Faculty of Economics and Administrative Sciences </i></a>
