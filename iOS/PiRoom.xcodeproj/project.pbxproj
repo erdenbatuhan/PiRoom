@@ -9,24 +9,25 @@
 /* Begin PBXBuildFile section */
 		4225B7D31EB274060034BB28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4225B7D21EB274060034BB28 /* GoogleService-Info.plist */; };
 		4286B2951EA8FCBD00916C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286B2941EA8FCBD00916C9E /* AppDelegate.swift */; };
-		4286B2971EA8FCBD00916C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286B2961EA8FCBD00916C9E /* ViewController.swift */; };
 		4286B29A1EA8FCBD00916C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4286B2981EA8FCBD00916C9E /* Main.storyboard */; };
 		4286B29C1EA8FCBD00916C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4286B29B1EA8FCBD00916C9E /* Assets.xcassets */; };
 		4286B29F1EA8FCBD00916C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4286B29D1EA8FCBD00916C9E /* LaunchScreen.storyboard */; };
-		4286B2A71EA9030000916C9E /* BuildingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286B2A61EA9030000916C9E /* BuildingCell.swift */; };
-		4286B2AC1EA9038F00916C9E /* TableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286B2AB1EA9038F00916C9E /* TableCellView.swift */; };
-		42F6A7CB1EAE0B08008AE003 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7CA1EAE0B08008AE003 /* Building.swift */; };
-		42F6A7CD1EAE0CA9008AE003 /* BuildingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7CC1EAE0CA9008AE003 /* BuildingDataSource.swift */; };
-		42F6A7CF1EAE12AD008AE003 /* CapacityLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7CE1EAE12AD008AE003 /* CapacityLabelView.swift */; };
-		42F6A7D11EAE29AD008AE003 /* BuildingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7D01EAE29AD008AE003 /* BuildingImageView.swift */; };
-		42F6A7D31EAE3EA8008AE003 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7D21EAE3EA8008AE003 /* RoundView.swift */; };
-		42F6A7D51EAE3F18008AE003 /* RoomTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7D41EAE3F18008AE003 /* RoomTableCellView.swift */; };
-		42F6A7D71EAE3F59008AE003 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7D61EAE3F59008AE003 /* RoomViewController.swift */; };
-		42F6A7D91EAE3F73008AE003 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7D81EAE3F73008AE003 /* Room.swift */; };
-		42F6A7DD1EAE4393008AE003 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7DC1EAE4393008AE003 /* RoomCell.swift */; };
-		42F6A7DF1EAEBC87008AE003 /* RoomCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7DE1EAEBC87008AE003 /* RoomCellView.swift */; };
-		42F6A7E41EAFB04E008AE003 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6A7E31EAFB04E008AE003 /* DataServices.swift */; };
 		5C7424BEF767C42C6990D24D /* Pods_PiRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07704FE4E6EC49B42619B25E /* Pods_PiRoom.framework */; };
+		74FA27131EDF419500AF8829 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA27121EDF419500AF8829 /* DataServices.swift */; };
+		74FA27171EDF41E600AF8829 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA27141EDF41E600AF8829 /* Building.swift */; };
+		74FA27181EDF41E600AF8829 /* BuildingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA27151EDF41E600AF8829 /* BuildingDataSource.swift */; };
+		74FA27191EDF41E600AF8829 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA27161EDF41E600AF8829 /* Room.swift */; };
+		74FA27231EDF41F300AF8829 /* BuildingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA271A1EDF41F300AF8829 /* BuildingCell.swift */; };
+		74FA27241EDF41F300AF8829 /* BuildingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA271B1EDF41F300AF8829 /* BuildingImageView.swift */; };
+		74FA27251EDF41F300AF8829 /* CapacityLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA271C1EDF41F300AF8829 /* CapacityLabelView.swift */; };
+		74FA27261EDF41F300AF8829 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA271D1EDF41F300AF8829 /* RoomCell.swift */; };
+		74FA27271EDF41F300AF8829 /* RoomCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA271E1EDF41F300AF8829 /* RoomCellView.swift */; };
+		74FA27281EDF41F300AF8829 /* RoomDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA271F1EDF41F300AF8829 /* RoomDataSource.swift */; };
+		74FA27291EDF41F300AF8829 /* RoomTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA27201EDF41F300AF8829 /* RoomTableCellView.swift */; };
+		74FA272A1EDF41F300AF8829 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA27211EDF41F300AF8829 /* RoundView.swift */; };
+		74FA272B1EDF41F300AF8829 /* TableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA27221EDF41F300AF8829 /* TableCellView.swift */; };
+		74FA272E1EDF420000AF8829 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA272C1EDF420000AF8829 /* RoomViewController.swift */; };
+		74FA272F1EDF420000AF8829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FA272D1EDF420000AF8829 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,24 +35,25 @@
 		4225B7D21EB274060034BB28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4286B2911EA8FCBD00916C9E /* PiRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4286B2941EA8FCBD00916C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4286B2961EA8FCBD00916C9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4286B2991EA8FCBD00916C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4286B29B1EA8FCBD00916C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4286B29E1EA8FCBD00916C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4286B2A01EA8FCBD00916C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4286B2A61EA9030000916C9E /* BuildingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingCell.swift; sourceTree = "<group>"; };
-		4286B2AB1EA9038F00916C9E /* TableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellView.swift; sourceTree = "<group>"; };
-		42F6A7CA1EAE0B08008AE003 /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
-		42F6A7CC1EAE0CA9008AE003 /* BuildingDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingDataSource.swift; sourceTree = "<group>"; };
-		42F6A7CE1EAE12AD008AE003 /* CapacityLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapacityLabelView.swift; sourceTree = "<group>"; };
-		42F6A7D01EAE29AD008AE003 /* BuildingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingImageView.swift; sourceTree = "<group>"; };
-		42F6A7D21EAE3EA8008AE003 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
-		42F6A7D41EAE3F18008AE003 /* RoomTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomTableCellView.swift; sourceTree = "<group>"; };
-		42F6A7D61EAE3F59008AE003 /* RoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
-		42F6A7D81EAE3F73008AE003 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
-		42F6A7DC1EAE4393008AE003 /* RoomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
-		42F6A7DE1EAEBC87008AE003 /* RoomCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomCellView.swift; sourceTree = "<group>"; };
-		42F6A7E31EAFB04E008AE003 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		74FA27121EDF419500AF8829 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataServices.swift; path = Services/DataServices.swift; sourceTree = "<group>"; };
+		74FA27141EDF41E600AF8829 /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Building.swift; path = Model/Building.swift; sourceTree = "<group>"; };
+		74FA27151EDF41E600AF8829 /* BuildingDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingDataSource.swift; path = Model/BuildingDataSource.swift; sourceTree = "<group>"; };
+		74FA27161EDF41E600AF8829 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Room.swift; path = Model/Room.swift; sourceTree = "<group>"; };
+		74FA271A1EDF41F300AF8829 /* BuildingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingCell.swift; path = View/BuildingCell.swift; sourceTree = "<group>"; };
+		74FA271B1EDF41F300AF8829 /* BuildingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingImageView.swift; path = View/BuildingImageView.swift; sourceTree = "<group>"; };
+		74FA271C1EDF41F300AF8829 /* CapacityLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CapacityLabelView.swift; path = View/CapacityLabelView.swift; sourceTree = "<group>"; };
+		74FA271D1EDF41F300AF8829 /* RoomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomCell.swift; path = View/RoomCell.swift; sourceTree = "<group>"; };
+		74FA271E1EDF41F300AF8829 /* RoomCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomCellView.swift; path = View/RoomCellView.swift; sourceTree = "<group>"; };
+		74FA271F1EDF41F300AF8829 /* RoomDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomDataSource.swift; path = View/RoomDataSource.swift; sourceTree = "<group>"; };
+		74FA27201EDF41F300AF8829 /* RoomTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomTableCellView.swift; path = View/RoomTableCellView.swift; sourceTree = "<group>"; };
+		74FA27211EDF41F300AF8829 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundView.swift; path = View/RoundView.swift; sourceTree = "<group>"; };
+		74FA27221EDF41F300AF8829 /* TableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableCellView.swift; path = View/TableCellView.swift; sourceTree = "<group>"; };
+		74FA272C1EDF420000AF8829 /* RoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomViewController.swift; path = Controller/RoomViewController.swift; sourceTree = "<group>"; };
+		74FA272D1EDF420000AF8829 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controller/ViewController.swift; sourceTree = "<group>"; };
 		7F8F924C73B73B0412A47E26 /* Pods-PiRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiRoom/Pods-PiRoom.debug.xcconfig"; sourceTree = "<group>"; };
 		9ADD81CA78F6F5EED871F62E /* Pods-PiRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiRoom/Pods-PiRoom.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,9 +116,9 @@
 		4286B2A81EA9030C00916C9E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				42F6A7CA1EAE0B08008AE003 /* Building.swift */,
-				42F6A7D81EAE3F73008AE003 /* Room.swift */,
-				42F6A7CC1EAE0CA9008AE003 /* BuildingDataSource.swift */,
+				74FA27141EDF41E600AF8829 /* Building.swift */,
+				74FA27151EDF41E600AF8829 /* BuildingDataSource.swift */,
+				74FA27161EDF41E600AF8829 /* Room.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -124,14 +126,15 @@
 		4286B2A91EA9031200916C9E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4286B2A61EA9030000916C9E /* BuildingCell.swift */,
-				42F6A7DC1EAE4393008AE003 /* RoomCell.swift */,
-				4286B2AB1EA9038F00916C9E /* TableCellView.swift */,
-				42F6A7DE1EAEBC87008AE003 /* RoomCellView.swift */,
-				42F6A7CE1EAE12AD008AE003 /* CapacityLabelView.swift */,
-				42F6A7D01EAE29AD008AE003 /* BuildingImageView.swift */,
-				42F6A7D21EAE3EA8008AE003 /* RoundView.swift */,
-				42F6A7D41EAE3F18008AE003 /* RoomTableCellView.swift */,
+				74FA271A1EDF41F300AF8829 /* BuildingCell.swift */,
+				74FA271B1EDF41F300AF8829 /* BuildingImageView.swift */,
+				74FA271C1EDF41F300AF8829 /* CapacityLabelView.swift */,
+				74FA271D1EDF41F300AF8829 /* RoomCell.swift */,
+				74FA271E1EDF41F300AF8829 /* RoomCellView.swift */,
+				74FA271F1EDF41F300AF8829 /* RoomDataSource.swift */,
+				74FA27201EDF41F300AF8829 /* RoomTableCellView.swift */,
+				74FA27211EDF41F300AF8829 /* RoundView.swift */,
+				74FA27221EDF41F300AF8829 /* TableCellView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -139,8 +142,8 @@
 		4286B2AA1EA9031700916C9E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4286B2961EA8FCBD00916C9E /* ViewController.swift */,
-				42F6A7D61EAE3F59008AE003 /* RoomViewController.swift */,
+				74FA272C1EDF420000AF8829 /* RoomViewController.swift */,
+				74FA272D1EDF420000AF8829 /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -148,7 +151,7 @@
 		42F6A7E21EAFB03C008AE003 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				42F6A7E31EAFB04E008AE003 /* DataServices.swift */,
+				74FA27121EDF419500AF8829 /* DataServices.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -287,21 +290,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42F6A7D51EAE3F18008AE003 /* RoomTableCellView.swift in Sources */,
-				42F6A7CD1EAE0CA9008AE003 /* BuildingDataSource.swift in Sources */,
-				42F6A7D91EAE3F73008AE003 /* Room.swift in Sources */,
-				4286B2A71EA9030000916C9E /* BuildingCell.swift in Sources */,
-				4286B2AC1EA9038F00916C9E /* TableCellView.swift in Sources */,
-				42F6A7CF1EAE12AD008AE003 /* CapacityLabelView.swift in Sources */,
-				42F6A7DF1EAEBC87008AE003 /* RoomCellView.swift in Sources */,
-				42F6A7CB1EAE0B08008AE003 /* Building.swift in Sources */,
-				42F6A7D71EAE3F59008AE003 /* RoomViewController.swift in Sources */,
-				4286B2971EA8FCBD00916C9E /* ViewController.swift in Sources */,
-				42F6A7E41EAFB04E008AE003 /* DataServices.swift in Sources */,
-				42F6A7DD1EAE4393008AE003 /* RoomCell.swift in Sources */,
-				42F6A7D11EAE29AD008AE003 /* BuildingImageView.swift in Sources */,
-				42F6A7D31EAE3EA8008AE003 /* RoundView.swift in Sources */,
+				74FA27291EDF41F300AF8829 /* RoomTableCellView.swift in Sources */,
+				74FA272B1EDF41F300AF8829 /* TableCellView.swift in Sources */,
+				74FA27181EDF41E600AF8829 /* BuildingDataSource.swift in Sources */,
+				74FA272E1EDF420000AF8829 /* RoomViewController.swift in Sources */,
+				74FA27241EDF41F300AF8829 /* BuildingImageView.swift in Sources */,
+				74FA27131EDF419500AF8829 /* DataServices.swift in Sources */,
+				74FA272A1EDF41F300AF8829 /* RoundView.swift in Sources */,
+				74FA27251EDF41F300AF8829 /* CapacityLabelView.swift in Sources */,
+				74FA27171EDF41E600AF8829 /* Building.swift in Sources */,
+				74FA27231EDF41F300AF8829 /* BuildingCell.swift in Sources */,
+				74FA27261EDF41F300AF8829 /* RoomCell.swift in Sources */,
+				74FA27281EDF41F300AF8829 /* RoomDataSource.swift in Sources */,
+				74FA27271EDF41F300AF8829 /* RoomCellView.swift in Sources */,
 				4286B2951EA8FCBD00916C9E /* AppDelegate.swift in Sources */,
+				74FA272F1EDF420000AF8829 /* ViewController.swift in Sources */,
+				74FA27191EDF41E600AF8829 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

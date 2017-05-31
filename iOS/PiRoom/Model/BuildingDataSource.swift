@@ -16,8 +16,7 @@ class BuildingDataSource: NSObject {
     var building4: Building
     var building5: Building
     
-    override init ()
-    {
+    override init () {
         
         self.building1 = Building(imageName: "AB1", name: "Engineering Faculty", capacity: 0, fullRoomNumber: 0)
         self.building2 = Building(imageName: "AB2", name: "Faculty of Economics and Administrative Sciences", capacity: 0, fullRoomNumber: 0)

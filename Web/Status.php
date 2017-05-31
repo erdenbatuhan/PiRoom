@@ -38,7 +38,7 @@
             </div>
             <div class="media-body">
                 <h4 id="title"> Loading... </h4>
-                <p></p>
+                <p id="para"></p>
             </div>
         </div>
         <br><br>
@@ -63,13 +63,20 @@
         var ref1 = firebase.database().ref('buildings');
         var ref2 = firebase.database().ref('rooms');
 
+        var capacity = 0;
+        var occupancy = 0;
         var count = 0;
 
         ref1.on('value', function(snapshot) {
             snapshot.forEach(function(child) {
                 if (buildingId ==  child.val().id) {
+                    capacity = child.val().capacity;
+
                     var title = document.getElementById("title");
                     title.innerText = child.val().name;
+
+                    var element = document.getElementById("para");
+                    element.innerText = occupancy + " / " + capacity;
                 }
             });
         });
@@ -78,10 +85,17 @@
             for (var i = 0; i < count; i++)
                 document.getElementById("room" + i).remove();
 
+            occupancy = 0;
             count = 0;
 
             snapshot.forEach(function(child) {
                 if (buildingId == child.val().building) {
+                    if (child.val().status != 0)
+                        occupancy++;
+
+                    var element = document.getElementById("para");
+                    element.innerText = occupancy + " / " + capacity;
+
                     var room = document.createElement("div");
 
                     var room_name = child.val().name;
