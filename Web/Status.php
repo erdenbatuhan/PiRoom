@@ -86,15 +86,14 @@
                     var room = document.createElement("div");
 
                     var room_name = child.val().name;
-                    var room_status = "Locked";
-                    var room_class = "panel panel-warning";
+                    var room_status = "Full";
+                    var room_class = "panel panel-danger";
 
                     if (child.val().status == 0) {
                         room_status = "Empty";
                         room_class = "panel panel-success";
                     } else if (child.val().status == 1) {
-                        room_status = "Full";
-                        room_class = "panel panel-danger";
+                        room_class = "panel panel-warning";
                     }
 
                     room.id = "room" + (count++);
