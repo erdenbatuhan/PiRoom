@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  PiRoom
 //
-//  Created by OMER BUKTE on 4/20/17.
-//  Copyright © 2017 Omer Bukte. All rights reserved.
+//  Copyright © 2017 O.B.E. Software & Development. All rights reserved.
 //
 
 import UIKit
@@ -13,7 +12,6 @@ import Firebase
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FIRApp.configure()

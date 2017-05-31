@@ -2,13 +2,12 @@
 //  Room.swift
 //  PiRoom
 //
-//  Created by OMER BUKTE on 4/24/17.
-//  Copyright © 2017 Omer Bukte. All rights reserved.
+//  Copyright © 2017 O.B.E. Software & Development. All rights reserved.
 //
 
 import Foundation
 
-class Room{
+class Room {
     
     private var _building: Int!
     private var _floor: Int!
@@ -37,7 +36,7 @@ class Room{
         return _roomKey
     }
     
-    init(building:Int, floor: Int,name: String, status: Int){
+    init(building: Int, floor: Int,name: String, status: Int) {
         self._building = building
         self._floor = floor
         self._name = name
@@ -47,23 +46,21 @@ class Room{
     init(roomKey: String, roomData: Dictionary<String,AnyObject>) {
         self._roomKey = roomKey
         
-        if let building = roomData["building"] as? Int{
+        if let building = roomData["building"] as? Int {
             self._building = building
         }
         
-        if let floor = roomData["floor"] as? Int{
+        if let floor = roomData["floor"] as? Int {
             self._floor = floor
         }
         
-        if let name = roomData["name"] as? String{
+        if let name = roomData["name"] as? String {
             self._name = name
         }
         
-        if let status = roomData["status"] as? Int{
+        if let status = roomData["status"] as? Int {
             self._status = status
         }
         
     }
-    
-    
 }

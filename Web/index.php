@@ -33,7 +33,7 @@
         <br><br>
         <a href="./Status.php?buildingId=3" type="button" class="btn btn-info"><span id="b3">... / ...</span><br> LF <br><i> Law Faculty </i></a>
         <br><br>
-        <a href="./Status.php?buildingId=4" type="button" class="btn btn-warning"><span id="b4">... / ...</span><br> ScOLa <br><i> School Of Languages </i></a>
+        <a href="./Status.php?buildingId=4" type="button" class="btn btn-warning"><span id="b4">... / ...</span><br> ScOLa <br><i> School of Languages </i></a>
         <br><br>
         <a href="./Status.php?buildingId=5" type="button" class="btn btn-danger"><span id="b5">... / ...</span><br> IC <br><i> Innovation Center </i></a>
         <br><br>

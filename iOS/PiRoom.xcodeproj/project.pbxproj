@@ -193,7 +193,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Omer Bukte";
+				ORGANIZATIONNAME = "O.B.E. Software & Development";
 				TargetAttributes = {
 					4286B2901EA8FCBD00916C9E = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -428,7 +428,7 @@
 				DEVELOPMENT_TEAM = 37HK3NBDAT;
 				INFOPLIST_FILE = PiRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.obukte.PiRoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obe.PiRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -442,7 +442,7 @@
 				DEVELOPMENT_TEAM = 37HK3NBDAT;
 				INFOPLIST_FILE = PiRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.obukte.PiRoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obe.PiRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  PiRoom
 //
-//  Created by OMER BUKTE on 4/20/17.
-//  Copyright © 2017 Omer Bukte. All rights reserved.
+//  Copyright © 2017 O.B.E. Software & Development. All rights reserved.
 //
 
 import UIKit
@@ -38,7 +37,6 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         tableView.dataSource = self
         
         loadData()
-        
     }
     
     func removeAll() {
@@ -56,7 +54,6 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     }
     
     func loadData() {
-        
         ref = FIRDatabase.database().reference()
         ref.child("rooms").observe(.value, with: { (snapshot) in
             if let snapshot = snapshot.children.allObjects as? [FIRDataSnapshot] {
@@ -98,6 +95,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
                     }
                 }
             }
+            
             self.buildingDataSource.buildingArray[0].buildingCapacity = self.engineeringCapacity
             self.buildingDataSource.buildingArray[0].buildingFullRoomNumber = self.engineeringOccupancy
             self.buildingDataSource.buildingArray[1].buildingCapacity = self.administrationCapacity

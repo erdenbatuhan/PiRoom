@@ -2,8 +2,7 @@
 //  BuildingImageView.swift
 //  PiRoom
 //
-//  Created by OMER BUKTE on 4/24/17.
-//  Copyright © 2017 Omer Bukte. All rights reserved.
+//  Copyright © 2017 O.B.E. Software & Development. All rights reserved.
 //
 
 import UIKit
