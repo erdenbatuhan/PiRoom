@@ -1,11 +1,3 @@
-<?php
-session_start();
-
-include "./Model/School.php";
-include "./Model/Building.php";
-include "./Model/Room.php";
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,32 +13,32 @@ include "./Model/Room.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- ========== CSS Part ========== !-->
-    <link rel="stylesheet" type="text/css" href="Data/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="Data/css/styleutiful.css">
+    <link rel="stylesheet" type="text/css" href="./Data/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./Data/css/styleutiful.css">
     <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cookie">
 
     <!-- ========== JavaScript Part ========== !-->
-    <script src="Data/js/bootstrap.js"></script>
+    <script src="./Data/js/bootstrap.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
 </head>
 <body>
-    <?php include "navbar.php"; ?>
+    <?php include "./navbar.php"; ?>
 
     <div id="main" class="container text-center">
         <br><br><br><br><br>
-        <button type="button" class="btn btn-primary"> EF <br><i> Engineering Faculty </i></button>
+        <a href="./Status.php?buildingId=1" type="button" class="btn btn-primary"><span id="b1">... / ...</span><br> EF <br><i> Engineering Faculty </i></a>
         <br><br>
-        <button type="button" class="btn btn-success"> FEAS <br><i> Faculty of Economics and Administrative Sciences </i></button>
+        <a href="./Status.php?buildingId=2" type="button" class="btn btn-success"><span id="b2">... / ...</span><br> FEAS <br><i> Faculty of Economics and Administrative Sciences </i></a>
         <br><br>
-        <button type="button" class="btn btn-info"> LF <br><i> Law Faculty </i></button>
+        <a href="./Status.php?buildingId=3" type="button" class="btn btn-info"><span id="b3">... / ...</span><br> LF <br><i> Law Faculty </i></a>
         <br><br>
-        <button type="button" class="btn btn-warning"> ScOLa <br><i> School Of Languages </i></button>
+        <a href="./Status.php?buildingId=4" type="button" class="btn btn-warning"><span id="b4">... / ...</span><br> ScOLa <br><i> School Of Languages </i></a>
         <br><br>
-        <button type="button" class="btn btn-danger"> IC <br><i> Innovation Center </i></button>
+        <a href="./Status.php?buildingId=5" type="button" class="btn btn-danger"><span id="b5">... / ...</span><br> IC <br><i> Innovation Center </i></a>
         <br><br>
     </div>
 
-    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
     <script>
         // Initialize Firebase
         var config = {
@@ -59,19 +51,44 @@ include "./Model/Room.php";
         };
 
         firebase.initializeApp(config);
-        var ref = firebase.database().ref('buildings');
 
-        //ref.on('value', function(snapshot) {
+        var ref1 = firebase.database().ref('buildings');
+        var ref2 = firebase.database().ref('rooms');
+
+        var capacities = [];
+        var occupancies = [];
+
+        ref1.on('value', function(snapshot) {
             snapshot.forEach(function(child) {
-                var div = document.createElement('div');
-                div.className = "button";
-                div.innerHTML = "<button>" + child.val().abbreviation + "<hr><br>" + child.val().name + "</button>";
+                var building = child.val().id;
+                capacities[building] = child.val().capacity;
 
-                document.getElementById('main').appendChild(div);
+                if (occupancies[building] == null)
+                    occupancies[building] = 0;
+
+                var element = document.getElementById("b" + building);
+                element.innerText = occupancies[building] + " / " + capacities[building];
+            });
+        });
+
+        ref2.on('value', function(snapshot) {
+            occupancies = [];
+
+            snapshot.forEach(function(child) {
+                var building = child.val().building;
+
+                if (occupancies[building] == null)
+                    occupancies[building] = 0;
+
+                if (child.val().status != 0)
+                    occupancies[building]++;
+
+                var element = document.getElementById("b" + building);
+                element.innerText = occupancies[building] + " / " + capacities[building];
             });
         });
     </script>
 
-    <?php include "footer.php"; ?>
+    <?php include "./footer.php"; ?>
 </body>
 </html>
