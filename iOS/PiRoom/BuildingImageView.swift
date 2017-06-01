@@ -1,13 +1,14 @@
 //
-//  CapacityLabelView.swift
+//  BuildingImageView.swift
 //  PiRoom
 //
-//  Copyright © 2017 O.B.E. Software & Development. All rights reserved.
+//  Created by OMER BUKTE on 4/24/17.
+//  Copyright © 2017 Omer Bukte. All rights reserved.
 //
 
 import UIKit
 
-class CapacityLabelView: UILabel {
+class BuildingImageView: UIImageView {
 
     let SHADOW_GREY: CGFloat = 120.0 / 255.0
     
@@ -19,8 +20,6 @@ class CapacityLabelView: UILabel {
         layer.shadowRadius = 5.0
         layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
         
-        
     }
-    
 
 }
