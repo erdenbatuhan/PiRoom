@@ -193,7 +193,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Omer Bukte";
+				ORGANIZATIONNAME = "O.B.E. Software & Development";
 				TargetAttributes = {
 					4286B2901EA8FCBD00916C9E = {
 						CreatedOnToolsVersion = 8.2.1;
