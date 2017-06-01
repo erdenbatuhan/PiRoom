@@ -16,4 +16,4 @@ http://piroomfor.me
    * Ömer Said Bükte [@obukte](https://github.com/obukte) - iOS Developer :iphone:
    
    
-![Ozyegin Logo](https://github.com/ekremcet/piroom/blob/master/img/ozulogo.png) 
+![Ozyegin Logo](https://github.com/ekremcet/piroom/blob/master/Web/Data/img/ozulogo.png) 

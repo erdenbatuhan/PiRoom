@@ -19,11 +19,11 @@ class BuildingDataSource: NSObject {
     override init ()
     {
         
-        self.building1 = Building(imageName: "ab1", name: "Engineering Building", capacity: 0, fullRoomNumber: 0)
-        self.building2 = Building(imageName: "ab2", name: "Administration Building", capacity: 0, fullRoomNumber: 0)
-        self.building3 = Building(imageName: "ab3", name: "Law Building", capacity: 0, fullRoomNumber: 0)
-        self.building4 = Building(imageName: "ab4", name: "Scola Building", capacity: 0, fullRoomNumber: 0)
-        self.building5 = Building(imageName:"ab5",name: "Innovation Center", capacity: 0, fullRoomNumber: 0)
+        self.building1 = Building(imageName: "AB1", name: "Engineering Building", capacity: 0, fullRoomNumber: 0)
+        self.building2 = Building(imageName: "AB2", name: "Administration Building", capacity: 0, fullRoomNumber: 0)
+        self.building3 = Building(imageName: "AB3", name: "Law Building", capacity: 0, fullRoomNumber: 0)
+        self.building4 = Building(imageName: "AB4", name: "Scola Building", capacity: 0, fullRoomNumber: 0)
+        self.building5 = Building(imageName: "AB5",name: "Innovation Center", capacity: 0, fullRoomNumber: 0)
         
         buildingArray.append(building1)
         buildingArray.append(building2)

@@ -10,14 +10,13 @@
 		4225B7D31EB274060034BB28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4225B7D21EB274060034BB28 /* GoogleService-Info.plist */; };
 		4286B2951EA8FCBD00916C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286B2941EA8FCBD00916C9E /* AppDelegate.swift */; };
 		4286B29A1EA8FCBD00916C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4286B2981EA8FCBD00916C9E /* Main.storyboard */; };
-		4286B29C1EA8FCBD00916C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4286B29B1EA8FCBD00916C9E /* Assets.xcassets */; };
 		4286B29F1EA8FCBD00916C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4286B29D1EA8FCBD00916C9E /* LaunchScreen.storyboard */; };
 		5C7424BEF767C42C6990D24D /* Pods_PiRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07704FE4E6EC49B42619B25E /* Pods_PiRoom.framework */; };
+		744B95E91EE0C25300A06F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744B95E81EE0C25300A06F42 /* Assets.xcassets */; };
 		7464500B1EE02DFB00AB575B /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464500A1EE02DFB00AB575B /* DataServices.swift */; };
 		746450101EE02E1100AB575B /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464500C1EE02E1100AB575B /* Building.swift */; };
 		746450111EE02E1100AB575B /* BuildingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464500D1EE02E1100AB575B /* BuildingDataSource.swift */; };
 		746450121EE02E1100AB575B /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464500E1EE02E1100AB575B /* Room.swift */; };
-		746450131EE02E1100AB575B /* RoomDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464500F1EE02E1100AB575B /* RoomDataSource.swift */; };
 		7464501C1EE02E2300AB575B /* BuildingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746450141EE02E2300AB575B /* BuildingCell.swift */; };
 		7464501D1EE02E2300AB575B /* BuildingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746450151EE02E2300AB575B /* BuildingImageView.swift */; };
 		7464501E1EE02E2300AB575B /* CapacityLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746450161EE02E2300AB575B /* CapacityLabelView.swift */; };
@@ -36,14 +35,13 @@
 		4286B2911EA8FCBD00916C9E /* PiRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4286B2941EA8FCBD00916C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4286B2991EA8FCBD00916C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4286B29B1EA8FCBD00916C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4286B29E1EA8FCBD00916C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4286B2A01EA8FCBD00916C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744B95E81EE0C25300A06F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7464500A1EE02DFB00AB575B /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataServices.swift; path = Services/DataServices.swift; sourceTree = "<group>"; };
 		7464500C1EE02E1100AB575B /* Building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Building.swift; path = Model/Building.swift; sourceTree = "<group>"; };
 		7464500D1EE02E1100AB575B /* BuildingDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingDataSource.swift; path = Model/BuildingDataSource.swift; sourceTree = "<group>"; };
 		7464500E1EE02E1100AB575B /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Room.swift; path = Model/Room.swift; sourceTree = "<group>"; };
-		7464500F1EE02E1100AB575B /* RoomDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomDataSource.swift; path = Model/RoomDataSource.swift; sourceTree = "<group>"; };
 		746450141EE02E2300AB575B /* BuildingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingCell.swift; path = View/BuildingCell.swift; sourceTree = "<group>"; };
 		746450151EE02E2300AB575B /* BuildingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingImageView.swift; path = View/BuildingImageView.swift; sourceTree = "<group>"; };
 		746450161EE02E2300AB575B /* CapacityLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CapacityLabelView.swift; path = View/CapacityLabelView.swift; sourceTree = "<group>"; };
@@ -105,8 +103,8 @@
 				4286B2AA1EA9031700916C9E /* Controller */,
 				4286B2941EA8FCBD00916C9E /* AppDelegate.swift */,
 				4286B2981EA8FCBD00916C9E /* Main.storyboard */,
-				4286B29B1EA8FCBD00916C9E /* Assets.xcassets */,
 				4286B29D1EA8FCBD00916C9E /* LaunchScreen.storyboard */,
+				744B95E81EE0C25300A06F42 /* Assets.xcassets */,
 				4286B2A01EA8FCBD00916C9E /* Info.plist */,
 				4225B7D21EB274060034BB28 /* GoogleService-Info.plist */,
 			);
@@ -119,7 +117,6 @@
 				7464500C1EE02E1100AB575B /* Building.swift */,
 				7464500D1EE02E1100AB575B /* BuildingDataSource.swift */,
 				7464500E1EE02E1100AB575B /* Room.swift */,
-				7464500F1EE02E1100AB575B /* RoomDataSource.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -200,7 +197,7 @@
 				TargetAttributes = {
 					4286B2901EA8FCBD00916C9E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 37HK3NBDAT;
+						DevelopmentTeam = MGRXZA9ZDS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -230,7 +227,7 @@
 			files = (
 				4286B29F1EA8FCBD00916C9E /* LaunchScreen.storyboard in Resources */,
 				4225B7D31EB274060034BB28 /* GoogleService-Info.plist in Resources */,
-				4286B29C1EA8FCBD00916C9E /* Assets.xcassets in Resources */,
+				744B95E91EE0C25300A06F42 /* Assets.xcassets in Resources */,
 				4286B29A1EA8FCBD00916C9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +295,6 @@
 				7464501C1EE02E2300AB575B /* BuildingCell.swift in Sources */,
 				746450231EE02E2300AB575B /* TableCellView.swift in Sources */,
 				746450101EE02E1100AB575B /* Building.swift in Sources */,
-				746450131EE02E1100AB575B /* RoomDataSource.swift in Sources */,
 				4286B2951EA8FCBD00916C9E /* AppDelegate.swift in Sources */,
 				7464501D1EE02E2300AB575B /* BuildingImageView.swift in Sources */,
 				7464501F1EE02E2300AB575B /* RoomCell.swift in Sources */,
@@ -429,10 +425,10 @@
 			baseConfigurationReference = 7F8F924C73B73B0412A47E26 /* Pods-PiRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 37HK3NBDAT;
+				DEVELOPMENT_TEAM = MGRXZA9ZDS;
 				INFOPLIST_FILE = PiRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.obukte.PiRoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obe.PiRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -443,10 +439,10 @@
 			baseConfigurationReference = 9ADD81CA78F6F5EED871F62E /* Pods-PiRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 37HK3NBDAT;
+				DEVELOPMENT_TEAM = MGRXZA9ZDS;
 				INFOPLIST_FILE = PiRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.obukte.PiRoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obe.PiRoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

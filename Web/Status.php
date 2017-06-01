@@ -32,7 +32,7 @@
         <div class="media">
             <div class="media-left">
                 <a href="#">
-                    <img class="media-object" src="http://sahinleryapi.com/insaat/photos/projeler/tamamlanan/ozyegin-universitesi/buyuk/23.jpg" width="64px" height="64px">
+                    <?php echo "<img class='media-object' src='./Data/img/AB" . $buildingId . ".jpg' width='64px' height='64px'>"; ?>
                 </a>
             </div>
             <div class="media-body">
